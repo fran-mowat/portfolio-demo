@@ -1,0 +1,60 @@
+:root{
+    --light-blue: #b6c3ea;
+    --blue: #5e4cff;
+    --navy: #320f74;
+    --light-grey: #efefef;
+    --dark-grey: #a6a6a6;
+}
+
+body{
+    background-color: var(--light-grey);
+}
+
+h1, h2{
+    color: var(--navy);
+}
+
+.custom-button{
+    background-color: var(--blue);
+}
+
+.custom-button:hover{
+    background-color: #523eff;
+}
+
+#hero{
+    background-color: var(--light-blue);
+    min-height: 500px;
+    padding: 5% 7%;
+}
+
+#about, #contact{
+    background-color: var(--navy);
+}
+
+#about *, #contact *{
+    color: var(--light-grey);
+}
+
+#portfolio{
+    background-color: var(--light-blue);
+}
+
+#portfolio .card-title{
+    color: var(--blue);
+    font-size: 1.2rem;
+}
+
+#portfolio .btn-outline-secondary:hover{
+    background-color: var(--navy);
+}
+
+#portfolio .card-text{
+    min-height: 120px;
+}
+
+@media screen and (min-width: 1200px){
+    #portfolio .card-text {
+        min-height: auto;
+    }
+}
